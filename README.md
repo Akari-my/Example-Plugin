@@ -4,6 +4,14 @@ Example Plugin for EnderX software Minecraft Bedrock :battery:
 # API :bee:
 Written with PocketMine 3.28.0 with EnderX fork with additional Scoreboard and PMQuery.
 
+### Required imports
+The following imports are necessary to use the virion library:
+```php
+use pocketmine\pmquery\PMQuery;
+use pocketmine\pmquery\PmQueryException;
+use pocketmine\utils\Scoreboard;
+```
+
 # Add this in onEnable 	:battery:
 ```php
 // This code schedules the periodic execution of the "scoreboard()" method every 20 time units using the application's "scheduler".
