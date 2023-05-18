@@ -22,10 +22,21 @@ $twerion = PMQuery::query("bedrock.twerion.net", 19132);
 ```
 </details>
 
-- Get the players
+- Get the information of the Query
 ```php
-$zeqa['Players']
-$twerion['Players']
+$query['GameName'];         // Returns the server software being used
+$query['HostName'];         // Returns the server host name
+$query['Protocol'];         // Returns the protocol version allowed to connect
+$query['Version'];          // Returns the client version allowed to connect
+$query['Players'];          // Returns the number of players on the server currently
+$query['MaxPlayers'];       // Returns the maximum player count of the server
+$query['ServerId'];         // Returns the raknet server id
+$query['Map'];              // Returns the default world name
+$query['GameMode'];         // Returns the default gamemode
+$query['NintendoLimited'];  // Returns the status of Nintendo's limitation to join
+$query['IPv4Port'];         // Returns the ipv4 port number
+$query['IPv6Port'];         // Returns the ipv6 port number
+$query['Extra'];            // I still don't know what this info is
 ```
 </details>
 
