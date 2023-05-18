@@ -5,7 +5,7 @@ Example Plugin for EnderX software Minecraft Bedrock :battery:
 Written with PocketMine 3.28.0 with EnderX fork with additional Scoreboard and PMQuery.
 
 ### Required imports
-The following imports are necessary to use the virion library:
+The following imports are necessary to use in pluggin
 ```php
 use pocketmine\pmquery\PMQuery;
 use pocketmine\pmquery\PmQueryException;
