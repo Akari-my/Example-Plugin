@@ -1,5 +1,5 @@
 # Example-Plugin :abacus:
-Example Plugin for EnderX software Minecraft Bedrock
+Example Plugin for EnderX software Minecraft Bedrock :battery:
 
 # API :bee:
 Written with PocketMine 3.28.0 with EnderX fork with additional Scoreboard and PMQuery.
