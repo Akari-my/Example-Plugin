@@ -69,3 +69,6 @@ public function scoreboard(): void{
 }
 ```
 </details>
+
+### Scoreboard in game :desktop_computer:
+<img src="image.png">
